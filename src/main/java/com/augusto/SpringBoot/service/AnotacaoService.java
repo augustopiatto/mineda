@@ -1,5 +1,5 @@
 
-package br.gov.sp.fatec.springboot3app2025.service;
+package com.augusto.SpringBoot.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
-import br.gov.sp.fatec.springboot3app2025.entity.Anotacao;
-import br.gov.sp.fatec.springboot3app2025.entity.Usuario;
-import br.gov.sp.fatec.springboot3app2025.repository.AnotacaoRepository;
-import br.gov.sp.fatec.springboot3app2025.repository.UsuarioRepository;
+import com.augusto.SpringBoot.entity.Anotacao;
+import com.augusto.SpringBoot.entity.Usuario;
+import com.augusto.SpringBoot.repository.AnotacaoRepository;
+import com.augusto.SpringBoot.repository.UsuarioRepository;
 
 @Service
 public class AnotacaoService {

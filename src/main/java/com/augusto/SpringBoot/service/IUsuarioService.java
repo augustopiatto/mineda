@@ -1,8 +1,8 @@
-package br.gov.sp.fatec.springboot3app2025.service;
+package com.augusto.SpringBoot.service;
 
 import java.util.List;
 
-import br.gov.sp.fatec.springboot3app2025.entity.Usuario;
+import com.augusto.SpringBoot.entity.Usuario;
 
 public interface IUsuarioService {
     

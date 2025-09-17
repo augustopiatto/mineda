@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.service;
+package com.augusto.SpringBoot.service;
 
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -10,9 +10,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import br.gov.sp.fatec.springboot3app2025.entity.Autorizacao;
-import br.gov.sp.fatec.springboot3app2025.entity.Usuario;
-import br.gov.sp.fatec.springboot3app2025.repository.UsuarioRepository;
+import com.augusto.SpringBoot.entity.Autorizacao;
+import com.augusto.SpringBoot.entity.Usuario;
+import com.augusto.SpringBoot.repository.UsuarioRepository;
 
 @Service
 public class SegurancaService implements UserDetailsService{

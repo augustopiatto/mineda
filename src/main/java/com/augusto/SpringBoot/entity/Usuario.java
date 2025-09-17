@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.entity;
+package com.augusto.SpringBoot.entity;
 
 import java.util.List;
 

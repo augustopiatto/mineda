@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.controller;
+package com.augusto.SpringBoot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
-import br.gov.sp.fatec.springboot3app2025.security.JwtUtils;
-import br.gov.sp.fatec.springboot3app2025.security.Login;
+import com.augusto.SpringBoot.security.JwtUtils;
+import com.augusto.SpringBoot.security.Login;
 
 @RestController
 @CrossOrigin

@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.security;
+package com.augusto.SpringBoot.security;
 
 import java.util.Date;
 
@@ -17,7 +17,7 @@ import io.jsonwebtoken.security.Keys;
 
 public class JwtUtils {
 
-    private static final String KEY = "br.gov.sp.fatec.springbootexample";
+    private static final String KEY = "com.augusto.SpringBoot";
 
     public static String generateToken(Authentication usuario) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
@@ -31,7 +31,7 @@ public class JwtUtils {
         Long hora = 1000L * 60L * 60L; // Uma hora
         return Jwts.builder()
                 .claim("userDetails", usuarioJson)
-                .setIssuer("br.gov.sp.fatec")
+                .setIssuer("com.augusto")
                 .setSubject(usuario.getName())
                 .setExpiration(new Date(agora.getTime() + hora))
                 .signWith(Keys.hmacShaKeyFor(KEY.getBytes()), SignatureAlgorithm.HS256).compact();

@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.controller;
+package com.augusto.SpringBoot.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.gov.sp.fatec.springboot3app2025.entity.Usuario;
-import br.gov.sp.fatec.springboot3app2025.service.IUsuarioService;
+import com.augusto.SpringBoot.entity.Usuario;
+import com.augusto.SpringBoot.service.IUsuarioService;
 
 @RestController
 @CrossOrigin

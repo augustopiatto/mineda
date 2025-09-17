@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.service;
+package com.augusto.SpringBoot.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,10 +12,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.gov.sp.fatec.springboot3app2025.entity.Autorizacao;
-import br.gov.sp.fatec.springboot3app2025.entity.Usuario;
-import br.gov.sp.fatec.springboot3app2025.repository.AutorizacaoRepository;
-import br.gov.sp.fatec.springboot3app2025.repository.UsuarioRepository;
+import com.augusto.SpringBoot.entity.Autorizacao;
+import com.augusto.SpringBoot.entity.Usuario;
+import com.augusto.SpringBoot.repository.AutorizacaoRepository;
+import com.augusto.SpringBoot.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService implements IUsuarioService{

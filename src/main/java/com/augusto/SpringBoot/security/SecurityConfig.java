@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.springboot3app2025.security;
+package com.augusto.SpringBoot.security;
 
 import java.util.List;
 
